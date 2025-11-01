@@ -1,0 +1,27 @@
+.breadcrumb__list {
+    display: flex;
+    padding-top: 29px;
+}
+
+.breadcrumb__list > li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.breadcrumb__list > li:first-child {
+    padding-left: 0;
+}
+
+.breadcrumb__list > li, .breadcrumb__list > li > a {
+    color: grey;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto medium';
+}
+
+.breadcrumb__product {
+    padding-top: 18px;
+    font-family: 'Roboto medium';
+    font-size: 30px;
+    font-weight: 500;
+}

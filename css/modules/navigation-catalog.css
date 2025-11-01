@@ -1,0 +1,45 @@
+.navigation {
+    display: flex;
+}
+
+.navigation__catalog {
+    margin-top: 16px;
+    width: 300px;
+    box-shadow: 0 1px 10px 0 rgba(208, 208, 208, 0.25);
+}
+
+.catalog__title {
+    position: relative;
+    height: 40px;
+    padding-left: 69px;
+    padding-top: 9px;
+    font-size: 18px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 4px;
+}
+
+.catalog__list {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.catalog__list li {
+    padding-left: 15px;
+}
+
+.catalog__list li:not(:first-child) {
+    padding-top: 13px;
+}
+
+.catalog__list li a {
+    color: var(--black);
+    font-size: 1rem;
+    transition: color 0.5s ease;
+    
+}
+
+.catalog__list li a:hover {
+    color: var(--blue);
+    transition: color 0.5s ease;
+}

@@ -1,0 +1,19 @@
+.brands {
+    margin-top: 105px;
+}
+
+.brands-reviews {
+    margin-top: 0px;
+    height: 146px;
+}
+
+.brands__carousel {
+    flex-wrap: nowrap;
+    max-width: 1255px;
+    overflow: hidden;
+}
+
+.brand {
+    padding-left: 52px;
+    padding-right: 52px;
+}

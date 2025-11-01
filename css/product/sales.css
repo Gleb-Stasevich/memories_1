@@ -1,0 +1,20 @@
+.sales__container {
+    height: 59px;
+   background-color: var(--red);
+   font-family: 'Roboto medium';
+   color: var(--white);
+}
+
+.sales__container > div {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.sales__btn > a {
+    font-size: 14px;
+    width: 155px;
+    height: 33px;
+    color: inherit;
+   border: 1px solid var(--white);
+    border-radius: 4px;
+}

@@ -1,0 +1,30 @@
+.vacancy__ul > li {
+    list-style-type: initial;
+    color: var(--light-dark);
+    width: 1009px;
+}
+
+.vacancy__content {
+    padding-top: 23px;
+}
+
+.vacancy__block {
+    padding-top: 15px;
+    align-items: start;
+}
+
+.vacancy__title {
+    font-family: 'Roboto medium';
+    color: var(--black);
+}
+
+.vacancy-btn > button {
+    margin-top: 40px;
+    margin-left: 355px;
+    border: none;
+    color: white;
+}
+
+.vacancies-footer {
+    margin-top: 50px;
+}

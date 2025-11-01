@@ -1,0 +1,144 @@
+.product__order {
+    min-width: 678px;
+    padding-top: 24px;
+    padding-left: 33px;
+    font-size: 14px;
+    font-family: 'Roboto medium';
+    font-weight: lighter;
+    border: 1px solid #d1d1d1;
+}
+
+.product__manufacturer,
+.product__strength,
+.product__availability,
+.product__delivery-when,
+.product__price span {
+    color: grey;
+}
+
+.product__manufacturer span,
+.product__strength span,
+.product__availability span,
+.product__delivery span,
+.product__price label {
+    color: var(--black);
+}
+
+.product__availability > span,
+.product__delivery-when > span {
+    color: var(--green);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.product__availability sup {
+    position: absolute;
+}
+
+.product__delivery-when {
+    padding-left: 44px;
+}
+
+.product__btns,
+.product__delivery,
+.product__about-availability,
+.product__price {
+    display: flex;
+    align-items: center;
+}
+
+.product__strength {
+    padding-top: 8px;
+}
+
+.product__about-availability,
+.product__price,
+.product__btns,
+.product__delivery {
+    padding-top: 15px;
+}
+
+.product__price-second {
+    padding-top: 11px;
+}
+
+.product__price-first input, .product__price-second input {
+    margin-right: 8px;
+}
+
+.product__price label {
+    font-family: 'Roboto medium';
+    font-size: 40px;
+}
+
+.counter {
+    padding-left: 26px;
+    position: relative;
+}
+
+.counter input:read-only {
+    text-align: center;
+    width: 107px;
+    height: 30px;
+}
+
+.counter-minus {
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    left: 31px;
+}
+
+.counter-plus {
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    right: 5px;
+}
+
+.product__btn-add button {
+    width: 199px;
+    height: 40px;
+    background-color: white;
+    color: var(--light-dark);
+    border: 1.50px solid var(--black);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.product__btn-buy {
+    padding-left: 14px;
+}
+
+.product__btn-buy > a {
+    font-size: 1rem;
+    width: 199px;
+    height: 40px;
+    background-color: var(--blue);
+    border-radius: 6px;
+    color: var(--white);
+}
+
+.calc-delivery, .open-calc {
+    position: relative;
+}
+
+.calc-delivery svg, .open-calc svg {
+    position: absolute;
+    top: 0;
+}
+
+.calc-delivery span, .open-calc button {
+    margin-left: 35px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.open-calc {
+    margin-left: 48px;
+}
+
+.open-calc button {
+    border: none;
+    background: none;
+}

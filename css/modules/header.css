@@ -1,0 +1,47 @@
+.header__container {
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.header__logo {
+    max-width: 200px;
+    max-height: 53.45px;
+}
+
+.header__menu li:not(:first-child) {
+    padding-left: 94px;
+}
+
+.header__menu a {
+    color: var(--light-dark);
+    font-size: 18px; /*! исправить */
+    font-family: 'Roboto medium';
+}
+
+.header__user-selected {
+    width: 96px;
+}
+
+.header__contacts a {
+    color: (var(--black));
+    font-family: 'Roboto medium'; /*! исправить */
+    font-size: 24px;
+}
+
+.text-call {
+    color: var(--blue);
+    font-family: 'Roboto medium';  /*! исправить */
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.selected-basket a svg path,
+.selected-likes a:hover svg path {
+    transition: fill 0.5s ease;
+}
+
+.selected-basket a:hover svg path,
+.selected-likes a:hover svg path {
+    fill: var(--orange);
+    transition: fill 0.5s ease;
+}

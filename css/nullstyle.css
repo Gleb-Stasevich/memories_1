@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "Roboto light";
+    src: url('../fonts/Roboto-Light.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto medium";
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto bold";
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "SF Compact";
+    src: url('../fonts/SF-Compact-Rounded-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+
+:root {
+    --blue: #5661CB;
+    --dark-blue: #1D2B5B;
+    --purple: #9FA6EE;
+    --light-dark: #494949;
+    --black: #272727;
+    --red: #D41A36;
+    --green: #27AE60;
+    --orange: #f2994a;
+    --white: white;
+}
+
+*:not(dl, dt, dd) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color-red {
+    color: var(--red) !important;
+}
+
+.container {
+    max-width: 1380px;
+    margin: auto;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    padding-left: 9px;
+    margin-top: 32px;
+    max-width: 243px;
+    min-height: 322px;
+    border: 0.70px solid rgba(134, 134, 134, 0.3);
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.card .card__img {
+    padding-top: 50px;
+    padding-left: 29px;
+}
+
+.card .card__img > img {
+    width: 145px;
+    height: 86px;
+}
+
+.card__title, .card__subtitle, .card__info, .card__btns {
+    padding-top: 10px;
+}
+
+.card__title {
+    font-family: 'SF Compact';
+    color: var(--black);
+}
+
+.card__subtitle {
+    font-family: 'Roboto medium';
+    font-weight: 300;
+    font-size: 14px;
+    opacity: 0.5; /*! !!!!*/
+    color: var(--light-dark);
+}
+
+.card__info a {
+    display: block;
+    font-family: 'Roboto medium';
+    font-size: 12px;
+    color: var(--light-dark);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.card__info a:last-child {
+    color: var(--green);
+    padding-right: 11.38px;
+}
+
+.card__btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__btn-buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 158px;
+    height: 33px;
+    background: var(--blue);
+}
+
+.card__btn-buy a {
+    color: var(--white);
+}
+
+.card__btn-basket {
+    margin-left: 9px;
+    margin-right: 9px;
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    width: 55px;
+    height: 33px;
+    text-align: center;
+    line-height: 2.2;
+}
+
+.card__btn-basket svg {
+    width: 17px;
+    height: 17px;
+}
+
+.card__btn-basket svg path {
+    fill: var(--blue);
+}
+
+.best-price {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 14px;
+    font-family: 'Roboto medium';
+    width: 116px;
+    height: 33px;
+}
+
+.lider-sells {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 14px;
+    font-family: 'Roboto medium';
+    width: 116px;
+    height: 33px;
+}
+
+.delivery-today {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 14px;
+    font-family: 'Roboto medium';
+    width: 132px;
+    height: 33px;
+}
+
+
+.section-header {
+     display: flex;
+}
+
+.section-header h2 {
+    font-size: 36px;
+    color: var(--black);
+    font-family: 'SF Compact';
+    font-weight: lighter;
+}
+
+.section-link a, 
+.section-link a svg path {
+    color: var(--red);
+    fill: var(--red);
+}
+
+.section-link a {
+    font-family: 'Roboto medium';
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.section-link svg {
+    margin-left: 8px;
+}

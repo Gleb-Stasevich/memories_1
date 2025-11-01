@@ -1,0 +1,23 @@
+.catalog-close {
+    display: none;
+}
+
+.box-shadow-none {
+    box-shadow: none;
+}
+
+.navigation__catalog {
+    position: relative;
+}
+
+.navigation__catalog:hover .catalog-close {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 10px 0 rgba(208, 208, 208, 1);
+}
+
+.navigation__catalog:hover {
+    box-shadow: 0 1px 10px 0 rgba(208, 208, 208, 0.25);
+}

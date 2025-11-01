@@ -1,0 +1,24 @@
+.conditions {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.condition {
+    display: flex;
+    align-items: center;
+}
+
+.condition__text {
+    padding-left: 12px;
+    font-size: 14px;
+    color: var(--black);
+    font-family: 'Roboto medium';
+}
+
+.condition__icon {
+    width: 49px;
+    height: 49px;
+    background: rgba(159, 166, 238, 0.1);
+    border-radius: 8px;
+}

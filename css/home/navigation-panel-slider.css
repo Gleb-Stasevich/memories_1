@@ -1,0 +1,94 @@
+.slider {
+    padding-top: 12px;
+}
+
+.slider__img img {
+    max-width: 637px;
+    max-height: 427px;
+}
+
+.slider__item {
+    display: flex;
+    position: relative;
+}
+
+.slider__text {
+    padding-top: 31px;
+    padding-left: 56px;
+    max-height: 301px;
+    overflow: auto;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.slider__title {
+    font-size: 22px;
+    font-family: "SF Compact";
+}
+
+.slider__subtitle,
+.slider__info,
+.slider__item-buy {
+    padding-top: 10px;
+    font-family: 'Roboto light';
+    font-size: 14px;
+}
+
+.slider__info a {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+}
+
+.slider__info a:nth-child(2) {
+    margin-left: 28px;
+}
+
+.slider__price {
+    padding-top: 13px;
+    font-family: 'Roboto medium';
+    font-size: 26px;
+}
+
+.slider__item-buy {
+    margin-top: 13.1px;
+    width: 142px;
+    height: 33px;
+    background-color: var(--white);
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.slider__item-buy > a {
+    color: var(--black);
+    font-family: 'Roboto medium';
+}
+
+.slider__btns {
+    display: flex;
+    align-items: end;
+}
+
+.slider__icon-buy {
+    margin-left: 9px;
+    width: 55px;
+    height: 33px;
+    border: 1px solid var(--white);
+    border-radius: 4px;
+    text-align: center;
+    line-height: 2.3;
+}
+
+.slider__icon-buy svg {
+    width: 17px;
+    height: 17px;
+}
+
+.slider__icon-buy svg path {
+    fill: var(--white);
+}
+
+.slider__item .best-price {
+    top: 19px;
+}

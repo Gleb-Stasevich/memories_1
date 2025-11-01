@@ -1,0 +1,52 @@
+.our-projects .section-header {
+    margin-top: 83px;
+}
+
+.our-projects__link a,
+.our-projects__link a svg path {
+    color: var(--blue);
+    fill: var(--blue);
+}
+
+.our-projects__gallery {
+    padding-top: 38px;
+}
+
+.our-projects__project img, .project__text {
+    width: 433px;
+    height: 264px;
+}
+
+.project__text {
+    padding-top: 38px;
+    padding-left: 42px;
+    color: var(--white);
+    background-image: url('../../img/home/our-projects/project-2.png');
+}
+
+.project__title {
+    font-family: 'Roboto medium';
+    font-size: 22px;
+}
+
+.project__subtitle {
+    padding-top: 17px;
+    font-family: 'Roboto medium';
+}
+
+.project__link {
+    padding-top: 18px;
+}
+
+.project__link a {
+    width: 155px;
+    height: 33px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.our__projects-next-block {
+    padding-top: 44px;
+}

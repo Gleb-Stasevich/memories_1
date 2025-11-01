@@ -1,0 +1,36 @@
+.reviews {
+    /* испол */
+    position: relative;
+    top: -4px;
+    background-color: #F7F7F7;
+}
+
+.review > img {
+    max-width: 248px;
+    min-height: 249px;
+    max-height: 249px;
+}
+
+.reviews__subtitle {
+    max-width: 884px;
+}
+
+.reviews__body {
+    max-width: 842px;
+    height: 249px;
+}
+
+.reviews__main > img {
+    width: 446px;
+    max-width: 446px;
+    height: 449px;
+    max-height: 449px;
+}
+
+.reviews__btns > .pagination {
+    justify-content: end;
+}
+
+.reviews-next {
+    margin-left: 14px;
+}

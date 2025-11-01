@@ -1,0 +1,24 @@
+.promocode {
+    margin-top: 32px;
+}
+
+.promocode label {
+    font-size: 14px;
+    color: var(--light-dark);
+}
+
+.promocode input {
+    margin-left: 16px;
+    width: 176px;
+    height: 37px;
+    border: 0.61px solid #bdbdbd;
+    border-radius: 5px;
+}
+
+.promocode__btns {
+    display: flex;
+}
+
+.promocode__btns .product__btn-add > button {
+    border: 1px solid var(--blue);
+}

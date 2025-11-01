@@ -1,0 +1,113 @@
+.basket__body {
+    max-width: 955px;
+}
+
+.basket {
+    margin-top: 15px;
+}
+
+.basket__content {
+    align-items: start;
+}
+
+.basket-bricks h3 {
+    margin-top: 40px;
+    font-weight: 500;
+    color: var(--black);
+    font-family: 'SF Compact';
+}
+
+.basket__item {
+    max-width: 955px;
+    height: 158px;
+}
+
+.b-item {
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 19px;
+    height: 123px;
+    border: 1px solid #D1D1D1;
+}
+
+.basket__description {
+    font-size: 14px;
+    color: grey;
+}
+
+.basket__description,
+.b-item {
+    display: flex;
+    align-items: center;
+}
+
+.b-item__image > img {
+    width: 122px;
+    height: 72px;
+}
+
+.b-item__name {
+    padding-left: 17px;
+    max-width: 220px;
+}
+
+.b-item__subtitle {
+    display: block;
+    font-size: 14px;
+}
+
+.b-item__count {
+    padding-left: 90px;
+}
+
+.b-item__price {
+    width: 110px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.b-item-star button,
+.b-item-star button > svg,
+.b-item-del button,
+.b-item-del button > svg {
+    background: none;
+    border: none;
+    width: 19px;
+    height: 19px;
+}
+
+.b-item-star {
+    padding-right: 19px;
+}
+
+.basket__description div:first-child {
+    padding-left: 159px;
+    padding-right: 208px;
+}
+
+.basket__description div:nth-child(2) {
+    padding-right: 118px;
+}
+
+.conditions {
+    width: 249px;
+}
+
+.condition {
+    display: flex;
+    align-items: center;
+}
+
+.condition:not(:first-child) {
+    padding-top: 23px;
+}
+
+.condition__icon > svg {
+    margin-right: 12px;
+    background-color: rgba(159, 166, 238, 0.1);
+    border-radius: 20%;
+}
+
+.basket + .brands {
+    margin-top: 50px;
+}

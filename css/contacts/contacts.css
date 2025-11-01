@@ -1,0 +1,48 @@
+.map > iframe {
+    margin-top: 27px;
+    width: 100%;
+}
+
+.contacts {
+    margin-top: 53px;
+}
+
+.contacts__title {
+    padding-top: 22px;
+    max-width: 884px;
+    line-height: 1.2;
+}
+
+.contacts__block {
+    display: flex;
+    padding-top: 19px;
+    max-width: 729px;
+}
+
+.contacts__subtitle {
+    font-family: 'Roboto medium';
+    font-size: 22px;
+}
+
+.contacts__text {
+    padding-top: 4px;
+}
+
+.contacts__block-left {
+    width: 562px;
+}
+
+.contacts__link,
+.contacts__link-tel {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+.contacts__warehouse > img {
+    height: 315px;
+    max-width: 406px;
+}
+
+.questions__content {
+    height: 244px;
+}

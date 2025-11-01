@@ -1,0 +1,20 @@
+.previously-products {
+    margin-top: 64px;
+}
+
+.previously-card,
+.recomended-card {
+    max-width: 226px;
+}
+
+.recomended-products {
+    margin-top: 49px;
+}
+
+.previously-next,
+.previously-prev,
+.recomended-next,
+.recomended-prev {
+    margin-left: 0;
+    margin-right: 0;
+}

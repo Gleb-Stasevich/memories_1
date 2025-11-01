@@ -1,0 +1,45 @@
+.vacancies__container {
+    max-width: 949px;
+    height: 689px;
+}
+
+.vacan {
+    position: relative;
+    width: 295px;
+    height: 207px;
+    flex-direction: column;
+    background-color: rgba(29, 43, 91, 0.78);
+}
+
+.vacan::before {
+    content: '';
+    position: absolute;
+    width: 295px;
+    height: 207px;
+    background: url('../../img/home/warehouse/warehouse-3.png') center center/cover no-repeat;
+    filter: blur(1px);
+    z-index: -1;
+}
+
+.vacan__btn {
+    padding-top: 25px;
+}
+
+.vacan__text {
+    font-family: 'Roboto bold';
+    font-size: 22px;
+    color: var(--white);
+}
+
+.vacan__btn > .card__btn-buy {
+    color: var(--white);
+}
+
+.vacancies > .section-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.vacancies-footer {
+    margin-top: 50px;
+}

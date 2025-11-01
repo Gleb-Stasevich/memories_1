@@ -1,0 +1,19 @@
+.warehouse {
+    margin-top: 77px;
+}
+
+.warehouse__link > a,
+.warehouse__link > a > svg > path  {
+    color: var(--blue);
+    fill: var(--blue);
+}
+
+.warehouse__images {
+    padding-top: 29px;
+}
+
+.warehouse__item > img {
+    width: 433px;
+    height: 263px;
+    border-radius: 10px;
+}

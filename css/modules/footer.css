@@ -1,0 +1,67 @@
+footer {
+    background-color: #f7f7f7;
+}
+
+.footer__lists {
+    padding-top: 41px;
+    align-items: flex-start;
+}
+
+.footer__list-title {
+    font-family: 'SF Compact';
+    font-size: 24px;
+}
+
+.footer__list > li {
+    padding-top: 10px;
+}
+
+.footer__list > li:nth-child(2) {
+    padding-top: 21px;
+}
+
+.footer__list > li > a {
+    color: var(--black);
+}
+
+.footer__call, .footer__country {
+    font-family: 'Roboto medium';
+}
+
+.footer__mail, .footer__adress {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.footer__btn {
+    color: var(--white);
+    align-self: center;
+}
+
+.footer__work-week {
+    position: relative;
+}
+
+.footer__work-week > a {
+    position: absolute;
+    top: 2px;
+}
+
+.footer__hr {
+    margin-top: 44px;;
+}
+
+.footer__copyright {
+    padding-top: 26px;
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 1.52;
+    color: var(--light-dark);
+    padding-bottom: 19px;
+}
+
+.footer__icon-visa {
+    padding-right: 30.33px;
+}
